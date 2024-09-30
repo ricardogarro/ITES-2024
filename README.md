@@ -131,7 +131,7 @@ El proyecto debe incluir un archivo `README.md` que describa:
 |
 └── docs                     # Documentación adicional del proyecto (opcional)
     └── project-description.md # Descripción detallada del proyecto o guía de uso.
-
+```plaintext
 
 
 ## Opcional 
@@ -140,7 +140,10 @@ El proyecto debe incluir un archivo `README.md` que describa:
 - Desplegar el sitio en un servicio de hosting gratuito como **GitHub Pages** o utilizar **Docker Hub** para compartir las imágenes de Docker del proyecto.
 
 ## Entrega:
-- El repositorio debe ser compartido en **GitHub** con el docente.
-- Todo el entorno debe funcionar correctamente y demostrar la integración completa del frontend, backend y base de datos mediante Docker.
 
-```plaintext
+- El repositorio debe ser compartido en **GitHub** con el docente.
+- Todo el entorno debe funcionar correctamente, demostrando la integración completa del frontend, backend y la base de datos mediante Docker.
+- La fecha límite de entrega es la **semana del 11 de noviembre**. La presentación será coordinada previamente con cada grupo, estableciendo día y hora específicos para realizar la presentación del proyecto ante el docente.
+
+
+
