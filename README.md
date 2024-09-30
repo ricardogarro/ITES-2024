@@ -1,6 +1,6 @@
 # ITES-2024
 
-# Trabajo Práctico: Desarrollo y Despliegue de una Aplicación Web con Docker y Backend a Elección
+# Trabajo Práctico: Desarrollo y Despliegue de una Aplicación Web con Docker y Backend
 
 ## Objetivo:
 Desarrollar una página web estática utilizando HTML y CSS, con un backend que procese las solicitudes de suscripción y consultas de clientes. Los datos ingresados por los usuarios se almacenarán en una base de datos MySQL o MariaDb, y la gestión de esta base de datos se realizará a través de phpMyAdmin. Todo el proyecto deberá estar contenerizado utilizando Docker. Cda grupo podrá elegir la tecnología de backend que prefieran. El trabajo se realizará en grupos de dos personas.
