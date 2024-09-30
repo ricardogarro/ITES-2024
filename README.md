@@ -104,6 +104,7 @@ El proyecto debe incluir un archivo `README.md` que describa:
 # Estructura del Proyecto
 
 ```plaintext
+
 /<nombre-del-proyecto>
 |
 ├── frontend                 # Carpeta para el frontend (HTML, CSS, JS)
@@ -132,8 +133,7 @@ El proyecto debe incluir un archivo `README.md` que describa:
 └── docs                     # Documentación adicional del proyecto (opcional)
     └── project-description.md # Descripción detallada del proyecto o guía de uso.
 
-```plaintext
-
+```
 
 
 ## Opcional 
