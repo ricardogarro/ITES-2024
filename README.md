@@ -101,33 +101,37 @@ El proyecto debe incluir un archivo `README.md` que describa:
 
 ### Estructura de Directorios Sugerida:
 
+# Estructura del Proyecto
+
+```plaintext
 /<nombre-del-proyecto>
-│
-├── /frontend                 # Carpeta para el frontend (HTML, CSS, JS)
+|
+├── frontend                 # Carpeta para el frontend (HTML, CSS, JS)
 │   ├── Dockerfile            # Dockerfile para contenerizar el frontend
 │   ├── index.html            # Archivo principal HTML
-│   ├── /assets               # Carpeta para recursos como imágenes, fuentes, etc.
+│   ├── assets               # Carpeta para recursos como imágenes, fuentes, etc.
 │   │   ├── styles.css        # Archivo CSS principal
 │   │   └── script.js         # (Opcional) Archivo JS si se requiere
-│   └── /img                  # Carpeta para imágenes
-│
-├── /backend                  # Carpeta para el backend
+│   └── img                  # Carpeta para imágenes
+|
+├── backend                  # Carpeta para el backend
 │   ├── Dockerfile            # Dockerfile para contenerizar el backend
-│   ├── /src                  # Código fuente del backend (varía según la tecnología)
+│   ├── src                  # Código fuente del backend (varía según la tecnología)
 │   │   ├── app.py            # Si es Flask
 │   │   ├── server.js         # Si es Node.js, por ejemplo
 │   │   ├── main.go           # Si es Go, etc.
 │   └── requirements.txt      # Si es Python (o archivo equivalente para otras tecnologías)
-│
-├── /database                 # Carpeta para inicialización de la base de datos
+|
+├── database                 # Carpeta para inicialización de la base de datos
 │   ├── init.sql              # Script de inicialización para crear la tabla `client_requests`
-│
-├── /docker-compose.yml       # Archivo Docker Compose para definir todos los servicios
-│
-├── /README.md                # Archivo README con instrucciones del proyecto
-│
-└── /docs                     # Documentación adicional del proyecto (opcional)
+|
+├── docker-compose.yml       # Archivo Docker Compose para definir todos los servicios
+|
+├── README.md                # Archivo README con instrucciones del proyecto
+|
+└── docs                     # Documentación adicional del proyecto (opcional)
     └── project-description.md # Descripción detallada del proyecto o guía de uso.
+
 
 
 ## Opcional 
@@ -139,3 +143,4 @@ El proyecto debe incluir un archivo `README.md` que describa:
 - El repositorio debe ser compartido en **GitHub** con el docente.
 - Todo el entorno debe funcionar correctamente y demostrar la integración completa del frontend, backend y base de datos mediante Docker.
 
+```plaintext
