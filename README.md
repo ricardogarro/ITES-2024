@@ -101,8 +101,6 @@ El proyecto debe incluir un archivo `README.md` que describa:
 
 ### Estructura de Directorios Sugerida:
 
-# Estructura del Proyecto
-
 ```plaintext
 
 /<nombre-del-proyecto>
